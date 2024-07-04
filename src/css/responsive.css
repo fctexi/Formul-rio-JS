@@ -1,0 +1,28 @@
+@media(max-width: 755px) {
+    main {
+        grid-template-areas: "duvida"
+            "formulario";
+    }
+
+    .duvida {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .duvida h1 {
+        text-align: center;
+    }
+
+    .duvida p {
+        text-align: center;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+}
